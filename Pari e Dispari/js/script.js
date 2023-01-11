@@ -22,7 +22,7 @@ console.log("La scelta cel PC è ", sceltaPcDue);
 
 console.log(sommaScelte(sceltaUtenteDue, sceltaPcDue));
 
-if ((sommaScelte % 2 == 0) && (sceltaUtenteUno == 'pari')){
+if ((sommaScelte(sceltaUtenteDue, sceltaPcDue) % 2 == 0) && (sceltaUtenteUno == 'pari')){
     alert('Hai scommesso: ' + sceltaUtenteUno + ' HAI VINTO!!!')
 }
 else{
